@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wNRZX3fu0fwejBS4iWqciOh2ogl+NmSSdvTsmIAFqwE=",
+  "Source": "ordination-api",
+  "BasePath": "_content/ordination-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

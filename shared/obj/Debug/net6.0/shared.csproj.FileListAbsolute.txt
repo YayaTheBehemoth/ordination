@@ -1,0 +1,12 @@
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/bin/Debug/net6.0/shared.deps.json
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/bin/Debug/net6.0/shared.dll
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/bin/Debug/net6.0/shared.pdb
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/shared.csproj.AssemblyReference.cache
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/shared.AssemblyInfoInputs.cache
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/shared.AssemblyInfo.cs
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/shared.csproj.CoreCompileInputs.cache
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/shared.dll
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/refint/shared.dll
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/shared.pdb
+/Users/placeholder/Desktop/miniprojekt-ordination/shared/obj/Debug/net6.0/ref/shared.dll

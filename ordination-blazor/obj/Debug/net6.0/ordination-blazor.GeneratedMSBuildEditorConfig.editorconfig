@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = ordination-blazor
+build_property.RootNamespace = ordination-blazor
+build_property.ProjectDir = /Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Pages/OpretOrdination.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3ByZXRPcmRpbmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Pages/VisOrdinationer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlzT3JkaW5hdGlvbmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Pages/VisStatistik.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlzU3RhdGlzdGlrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/FastDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Zhc3REZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/LaegemiddelList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xhZWdlbWlkZGVsTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/OpretDagligFast.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL09wcmV0RGFnbGlnRmFzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/OpretDagligSkaev.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL09wcmV0RGFnbGlnU2thZXYucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/OpretPN.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL09wcmV0UE4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/OrdinationList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL09yZGluYXRpb25MaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/PNDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1BORGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/SkævDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Nrw6Z2RGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yzrft50lcn
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qcm0dau849
+
+[/Users/placeholder/Desktop/miniprojekt-ordination/ordination-blazor/Shared/PatientList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1BhdGllbnRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-od09i8dsru
