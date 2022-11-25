@@ -1,1 +1,1 @@
-# pls udlever en actual app næste gang
+# pls udlevér en actual app næste gang
