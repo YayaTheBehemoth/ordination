@@ -4559,6 +4559,1340 @@
         }
       },
       {
+        "HashCode": -920884503,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.App",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.App"
+        }
+      },
+      {
+        "HashCode": 697970591,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.App",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 479379909,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.FastDetails",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FastDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "fast",
+            "TypeName": "shared.Model.DagligFast",
+            "Metadata": {
+              "Common.PropertyName": "fast"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.FastDetails"
+        }
+      },
+      {
+        "HashCode": 2061076685,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.FastDetails",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.FastDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "fast",
+            "TypeName": "shared.Model.DagligFast",
+            "Metadata": {
+              "Common.PropertyName": "fast"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.FastDetails",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 908651570,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.FastDetails.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "FastDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.FastDetails.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 381070280,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.FastDetails.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ordinationsapp.Shared.FastDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.FastDetails.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 602111976,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.LaegemiddelList",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LaegemiddelList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "onSelectLægemiddel",
+            "TypeName": "System.Action<shared.Model.Laegemiddel>",
+            "Metadata": {
+              "Common.PropertyName": "onSelectLægemiddel",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.LaegemiddelList"
+        }
+      },
+      {
+        "HashCode": -1873973103,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.LaegemiddelList",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.LaegemiddelList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "onSelectLægemiddel",
+            "TypeName": "System.Action<shared.Model.Laegemiddel>",
+            "Metadata": {
+              "Common.PropertyName": "onSelectLægemiddel",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.LaegemiddelList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1249778471,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.LaegemiddelList.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "LaegemiddelList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.LaegemiddelList.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -583913166,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.LaegemiddelList.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ordinationsapp.Shared.LaegemiddelList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.LaegemiddelList.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2123785649,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OpretDagligFast",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OpretDagligFast"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Patient",
+            "TypeName": "ordinationsapp.Model.PatientResponse",
+            "Metadata": {
+              "Common.PropertyName": "Patient"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "laegemiddel",
+            "TypeName": "shared.Model.Laegemiddel",
+            "Metadata": {
+              "Common.PropertyName": "laegemiddel"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnbefaletDosisPerDøgn",
+            "TypeName": "System.Double",
+            "Metadata": {
+              "Common.PropertyName": "AnbefaletDosisPerDøgn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onFortryd",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "onFortryd",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onDone",
+            "TypeName": "System.Action<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "onDone",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OpretDagligFast"
+        }
+      },
+      {
+        "HashCode": -627183867,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OpretDagligFast",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.OpretDagligFast"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Patient",
+            "TypeName": "ordinationsapp.Model.PatientResponse",
+            "Metadata": {
+              "Common.PropertyName": "Patient"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "laegemiddel",
+            "TypeName": "shared.Model.Laegemiddel",
+            "Metadata": {
+              "Common.PropertyName": "laegemiddel"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnbefaletDosisPerDøgn",
+            "TypeName": "System.Double",
+            "Metadata": {
+              "Common.PropertyName": "AnbefaletDosisPerDøgn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onFortryd",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "onFortryd",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onDone",
+            "TypeName": "System.Action<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "onDone",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OpretDagligFast",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 33326723,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OpretDagligSkaev",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OpretDagligSkaev"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Patient",
+            "TypeName": "ordinationsapp.Model.PatientResponse",
+            "Metadata": {
+              "Common.PropertyName": "Patient"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "laegemiddel",
+            "TypeName": "shared.Model.Laegemiddel",
+            "Metadata": {
+              "Common.PropertyName": "laegemiddel"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnbefaletDosisPerDøgn",
+            "TypeName": "System.Double",
+            "Metadata": {
+              "Common.PropertyName": "AnbefaletDosisPerDøgn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onFortryd",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "onFortryd",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onDone",
+            "TypeName": "System.Action<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "onDone",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OpretDagligSkaev"
+        }
+      },
+      {
+        "HashCode": 378646997,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OpretDagligSkaev",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.OpretDagligSkaev"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Patient",
+            "TypeName": "ordinationsapp.Model.PatientResponse",
+            "Metadata": {
+              "Common.PropertyName": "Patient"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "laegemiddel",
+            "TypeName": "shared.Model.Laegemiddel",
+            "Metadata": {
+              "Common.PropertyName": "laegemiddel"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnbefaletDosisPerDøgn",
+            "TypeName": "System.Double",
+            "Metadata": {
+              "Common.PropertyName": "AnbefaletDosisPerDøgn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onFortryd",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "onFortryd",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onDone",
+            "TypeName": "System.Action<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "onDone",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OpretDagligSkaev",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1084437233,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OpretPN",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OpretPN"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Patient",
+            "TypeName": "ordinationsapp.Model.PatientResponse",
+            "Metadata": {
+              "Common.PropertyName": "Patient"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "laegemiddel",
+            "TypeName": "shared.Model.Laegemiddel",
+            "Metadata": {
+              "Common.PropertyName": "laegemiddel"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnbefaletDosisPerDøgn",
+            "TypeName": "System.Double",
+            "Metadata": {
+              "Common.PropertyName": "AnbefaletDosisPerDøgn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onFortryd",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "onFortryd",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onDone",
+            "TypeName": "System.Action<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "onDone",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OpretPN"
+        }
+      },
+      {
+        "HashCode": -663734108,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OpretPN",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.OpretPN"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Patient",
+            "TypeName": "ordinationsapp.Model.PatientResponse",
+            "Metadata": {
+              "Common.PropertyName": "Patient"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "laegemiddel",
+            "TypeName": "shared.Model.Laegemiddel",
+            "Metadata": {
+              "Common.PropertyName": "laegemiddel"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnbefaletDosisPerDøgn",
+            "TypeName": "System.Double",
+            "Metadata": {
+              "Common.PropertyName": "AnbefaletDosisPerDøgn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onFortryd",
+            "TypeName": "System.Action",
+            "Metadata": {
+              "Common.PropertyName": "onFortryd",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "onDone",
+            "TypeName": "System.Action<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "onDone",
+              "Components.DelegateSignature": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OpretPN",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2002647757,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OrdinationList",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OrdinationList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "onSelectOrdination",
+            "TypeName": "System.Action<shared.Model.Ordination>",
+            "Metadata": {
+              "Common.PropertyName": "onSelectOrdination",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ordinationer",
+            "TypeName": "System.Collections.Generic.List<shared.Model.Ordination>",
+            "Metadata": {
+              "Common.PropertyName": "ordinationer"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OrdinationList"
+        }
+      },
+      {
+        "HashCode": -1612581963,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.OrdinationList",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.OrdinationList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "onSelectOrdination",
+            "TypeName": "System.Action<shared.Model.Ordination>",
+            "Metadata": {
+              "Common.PropertyName": "onSelectOrdination",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ordinationer",
+            "TypeName": "System.Collections.Generic.List<shared.Model.Ordination>",
+            "Metadata": {
+              "Common.PropertyName": "ordinationer"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.OrdinationList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1061721781,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.OrdinationList.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "OrdinationList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.OrdinationList.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1940841074,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.OrdinationList.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ordinationsapp.Shared.OrdinationList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.OrdinationList.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1324988534,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.SkævDetails",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SkævDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "skæv",
+            "TypeName": "shared.Model.DagligSkæv",
+            "Metadata": {
+              "Common.PropertyName": "skæv"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.SkævDetails"
+        }
+      },
+      {
+        "HashCode": 2017278297,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.SkævDetails",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.SkævDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "skæv",
+            "TypeName": "shared.Model.DagligSkæv",
+            "Metadata": {
+              "Common.PropertyName": "skæv"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.SkævDetails",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1632611615,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.SkævDetails.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "SkævDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.SkævDetails.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1368480189,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.SkævDetails.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ordinationsapp.Shared.SkævDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.SkævDetails.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1515653227,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.MainLayout",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": -1717827675,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.MainLayout",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1330882308,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.MainLayout.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1775624935,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.MainLayout.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ordinationsapp.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1984700685,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.PatientList",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PatientList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "onSelectPatient",
+            "TypeName": "System.Action<ordinationsapp.Model.PatientResponse>",
+            "Metadata": {
+              "Common.PropertyName": "onSelectPatient",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "patienter",
+            "TypeName": "ordinationsapp.Model.PatientResponse[]",
+            "Metadata": {
+              "Common.PropertyName": "patienter"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.PatientList"
+        }
+      },
+      {
+        "HashCode": -129624239,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.PatientList",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.PatientList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "onSelectPatient",
+            "TypeName": "System.Action<ordinationsapp.Model.PatientResponse>",
+            "Metadata": {
+              "Common.PropertyName": "onSelectPatient",
+              "Components.DelegateSignature": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "patienter",
+            "TypeName": "ordinationsapp.Model.PatientResponse[]",
+            "Metadata": {
+              "Common.PropertyName": "patienter"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.PatientList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 455162085,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.PatientList.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "PatientList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.PatientList.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 2085274529,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.PatientList.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ordinationsapp.Shared.PatientList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.PatientList.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2018933709,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.PNDetails",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PNDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "pn",
+            "TypeName": "shared.Model.PN",
+            "Metadata": {
+              "Common.PropertyName": "pn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.PNDetails"
+        }
+      },
+      {
+        "HashCode": -1967898392,
+        "Kind": "Components.Component",
+        "Name": "ordinationsapp.Shared.PNDetails",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordinationsapp.Shared.PNDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "pn",
+            "TypeName": "shared.Model.PN",
+            "Metadata": {
+              "Common.PropertyName": "pn"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordinationsapp.Shared.PNDetails",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -845102945,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.PNDetails.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "PNDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.PNDetails.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -292231660,
+        "Kind": "Components.ChildContent",
+        "Name": "ordinationsapp.Shared.PNDetails.Body",
+        "AssemblyName": "ordination-blazor",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "ordinationsapp.Shared.PNDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "ordinationsapp.Shared.PNDetails.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -459178522,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.OpretOrdination",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OpretOrdination"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.OpretOrdination"
+        }
+      },
+      {
+        "HashCode": -892742223,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.OpretOrdination",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordination_blazor.Pages.OpretOrdination"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.OpretOrdination",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 302897761,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.VisOrdinationer",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VisOrdinationer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.VisOrdinationer"
+        }
+      },
+      {
+        "HashCode": 1012178812,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.VisOrdinationer",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordination_blazor.Pages.VisOrdinationer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.VisOrdinationer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1464265966,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.VisStatistik",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VisStatistik"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.VisStatistik"
+        }
+      },
+      {
+        "HashCode": -512954228,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.VisStatistik",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordination_blazor.Pages.VisStatistik"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.VisStatistik",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 738711849,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.Index",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 354392250,
+        "Kind": "Components.Component",
+        "Name": "ordination_blazor.Pages.Index",
+        "AssemblyName": "ordination-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ordination_blazor.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ordination_blazor.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -644107692,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",

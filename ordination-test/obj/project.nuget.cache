@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4gQqoYDhdFzO0MrpYh81OOGWDcGeFBIL77gNXYS00a13Eam43ahfnzHXRze+IWmFeZMr/61d7zHuOPFr7RCSMA==",
+  "dgSpecHash": "cPipCiIOwGvLCFXLECE4Ftf7b/KBkhtzVJyIYL8/yLR4/pvciuwkXDC5j6Poxh+So7NTNhTUpddloGKSKhh7Cg==",
   "success": true,
   "projectFilePath": "/Users/placeholder/Desktop/miniprojekt-ordination/ordination-test/ordination-test.csproj",
   "expectedPackageFiles": [
     "/Users/placeholder/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
+    "/Users/placeholder/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/6.0.8/microsoft.aspnetcore.components.webassembly.server.6.0.8.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/6.0.9/microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.9.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",

@@ -28,12 +28,14 @@ public class ApiService
 
     public async Task<OrdinationResponse?> GetOrdinationer()
     {
+        //string url = "ordinationer/";
         string url = $"{baseAPI}ordinationer/";
         return await http.GetFromJsonAsync<OrdinationResponse>(url);
     }
 
     public async Task<PatientResponse[]?> GetPatienter()
     {
+        //string url = "patienter/";
         string url = $"{baseAPI}patienter/";
         return await http.GetFromJsonAsync<PatientResponse[]>(url);
 
@@ -41,12 +43,14 @@ public class ApiService
 
     public async Task<Laegemiddel[]?> GetLaegemidler()
     {
+        //string url = "laegemidler";
         string url = $"{baseAPI}laegemidler";
         return await http.GetFromJsonAsync<Laegemiddel[]>(url);
     }
 
     public async Task<PN> OpretPN(int patientId, int laegemiddelId, double antal, DateTime startDato, DateTime slutDato)
     {
+        //string url = "ordinationer/pn/";
         string url = $"{baseAPI}ordinationer/pn/";
         PN_DTO opret = new(patientId, laegemiddelId, antal, startDato, slutDato);
         HttpResponseMessage res = await http.PostAsJsonAsync<PN_DTO>(url, opret);
@@ -58,7 +62,7 @@ public class ApiService
     public async Task<DagligFast> OpretDagligFast(int patientId, int laegemiddelId, 
         double antalMorgen, double antalMiddag, double antalAften, double antalNat, 
         DateTime startDato, DateTime slutDato) {
-
+        //string url = "ordinationer/dagligfast/";    
         string url = $"{baseAPI}ordinationer/dagligfast/";
         DagligFastDTO opret = new(patientId, laegemiddelId, antalMorgen, antalMiddag, antalAften, antalNat, startDato, slutDato);
         HttpResponseMessage res = await http.PostAsJsonAsync<DagligFastDTO>(url, opret);
@@ -69,7 +73,7 @@ public class ApiService
 
     public async Task<DagligSkæv> OpretDagligSkaev(int patientId, int laegemiddelId,
         Dosis[] doser, DateTime startDato, DateTime slutDato) {
-
+        //string url = "ordinationer/dagligskaev/";
         string url = $"{baseAPI}ordinationer/dagligskaev/";
         DagligSkaevDTO opret = new(patientId, laegemiddelId, doser, startDato, slutDato);
         HttpResponseMessage res = await http.PostAsJsonAsync<DagligSkaevDTO>(url, opret);
@@ -80,6 +84,7 @@ public class ApiService
 
     public async Task<string> GivDosisPN(PN pn, DateTime date)
     {
+        //string url = "ordinationer/pn/{pn.OrdinationId}/anvend";
         string url = $"{baseAPI}ordinationer/pn/{pn.OrdinationId}/anvend";
         HttpResponseMessage res = await http.PutAsJsonAsync<DateTimeDTO>(url, new DateTimeDTO(date));
         CallRequestRefresh();
@@ -89,6 +94,7 @@ public class ApiService
     }
 
     public async Task<AnbefaletDosisDTO> GetAnbefaletDosisPerDøgn(int patientId, Laegemiddel lm) {
+        //string url = "patienter/{patientId}/beregnAnbefaletDosisPerDøgn";
         string url = $"{baseAPI}patienter/{patientId}/beregnAnbefaletDosisPerDøgn";
         HttpResponseMessage res = await http.PostAsJsonAsync<AnbefaletDosisDTO>(url, new AnbefaletDosisDTO(lm.LaegemiddelId, -1));
         string json = res.Content.ReadAsStringAsync().Result;

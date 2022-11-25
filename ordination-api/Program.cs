@@ -5,7 +5,7 @@ using Data;
 using shared.Model;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddRazorPages();
 // Sætter CORS så API'en kan bruges fra andre domæner
 var AllowCors = "_AllowCors";
 builder.Services.AddCors(options =>
@@ -23,7 +23,7 @@ builder.Services.AddDbContext<OrdinationContext>(options =>
 
 // Tilføj DataService så den kan bruges i endpoints
 builder.Services.AddScoped<DataService>();
-
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // Seed data hvis nødvendigt.
@@ -32,8 +32,9 @@ using (var scope = app.Services.CreateScope())
     var dataService = scope.ServiceProvider.GetRequiredService<DataService>();
     dataService.SeedData();
 }
-
+app.UseBlazorFrameworkFiles(); 
 app.UseHttpsRedirection();
+
 app.UseCors(AllowCors);
 
 // Middlware der kører før hver request. Sætter ContentType for alle responses til "JSON".
@@ -42,10 +43,25 @@ app.Use(async (context, next) =>
     context.Response.ContentType = "application/json; charset=utf-8";
     await next(context);
 });
+app.MapRazorPages();
+     
+            app.UseStaticFiles();
 
-app.MapGet("/", (DataService service) =>
-{
-    return Results.Ok("API is running");
+            app.UseRouting();
+
+            app.UseEndpoints(endpoints =>
+            {
+                
+                
+                endpoints.MapControllers();
+                endpoints.MapFallbackToFile("index.html");
+            });
+
+
+app.MapGet("/:(", (DataService service) =>
+{   
+    //var Razor = System.IO.File.ReadAllText(@"./../ordination-blazor/Pages/Index.Razor");
+    return Results.Ok(":(") ;
 });
 
 app.MapGet("/api/ordinationer", (DataService service) =>
