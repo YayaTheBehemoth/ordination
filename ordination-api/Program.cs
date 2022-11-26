@@ -94,6 +94,16 @@ app.MapGet("/api/laegemidler", (DataService service) =>
     return service.GetLaegemidler();
 });
 
+app.MapGet("/api/stats/{vfra}/{vtil}/{id}/", (DataService service, int vfra, int vtil, int id) =>
+{
+      
+
+
+        return service.getStats(vfra, vtil, id);
+});
+
+
+
 app.MapPost("/api/ordinationer/pn/", (DataService service, PN_DTO dto) =>
 {
     return service.OpretPN(dto.patientId, dto.laegemiddelId, dto.antal, dto.startDato, dto.slutDato);

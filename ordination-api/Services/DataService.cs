@@ -138,6 +138,23 @@ public class DataService
         db.SaveChanges();
         return newpn;
     }
+    public int getStats(int vfra, int vtil, int id){
+            int resultCount =0;
+            var selectedPatients = db.Patienter.Where(p => p.vaegt > vfra && p.vaegt < vtil).Include(p => p.ordinationer).ToList();
+            var medicin = db.Laegemiddler.ToList();
+            var selectedMed = db.Laegemiddler.FirstOrDefault(l => l.LaegemiddelId == id);
+            int selectedMedID = selectedMed.LaegemiddelId;
+            foreach (Patient p in selectedPatients){
+                foreach(Ordination o in p.ordinationer){
+                    if (o.laegemiddel.LaegemiddelId == selectedMedID){
+                        resultCount += 1;
+                    }
+                }
+            }
+       
+        return resultCount;
+    }
+  
 
     public DagligFast OpretDagligFast(int patientId, int laegemiddelId, 
     double antalMorgen, double antalMiddag, double antalAften, double antalNat, 
