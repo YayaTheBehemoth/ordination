@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 using Service;
 using Data;
+using shared.Model;
+using static shared.Util;
 
 [TestClass]
 public class ServiceTest
@@ -23,5 +25,18 @@ public class ServiceTest
     public void PatientsExist()
     {
         Assert.IsNotNull(service.GetPatienter());
+    }
+
+    [TestMethod]
+    public void OpretPN()
+    {
+        Patient patient = service.GetPatienter().First();
+        Laegemiddel lm = service.GetLaegemidler().First();
+
+        Assert.AreEqual(4, service.GetPNs().Count());
+
+        service.OpretPN(patient.PatientId, lm.LaegemiddelId, 5, DateTime.Now, DateTime.Now.AddDays(3));
+
+        Assert.AreEqual(5, service.GetPNs().Count());
     }
 }
