@@ -41,6 +41,23 @@ public class ApiService
 
     }
 
+
+    public async Task<int> GetStats(int vfra, int vtil, int id)
+    {
+        
+        //string url = "patienter/";
+     
+        string url = $"{baseAPI}stats/{vfra}/{vtil}/{id}/";
+    
+       return await http.GetFromJsonAsync<int>(url);
+     
+         
+        
+
+    }
+
+    
+
     public async Task<Laegemiddel[]?> GetLaegemidler()
     {
         //string url = "laegemidler";
